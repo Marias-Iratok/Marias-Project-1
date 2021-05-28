@@ -1,0 +1,920 @@
+
+/* -------- GENERAL STYLING -------- */
+
+h1, h2, h3, h4, h5, h6, body{
+	font-family: 'Montserrat', sans-serif;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+body, html{
+	margin:0;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+.container{
+	margin: 0 auto;
+}
+
+#main-body{
+	padding: 0;
+	margin: 0;
+}
+section{
+	padding: 10px 0;
+}
+li{
+	list-style-type: none;
+}
+i{
+	padding-right: 5px;
+}
+
+#teachers-details, #university-news, #courses-div{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+/* -------- Container-1 SITE HEADER STYLES -------- */
+#main-heading{
+	width: 100%;
+	margin: 0;
+
+}
+#head-nav{
+	text-align: right;
+	padding: 0;
+	
+}
+#container-1{
+	border-top:5px solid #8d2729;
+	position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+	box-sizing: border-box;
+
+}
+
+#logo{
+	padding: 20px;
+	border-right: 1px solid #f2f5f6;
+	
+}
+#head-nav div ul li:first-child{
+	border-left: none;
+	
+}
+#head-nav-contact ul li{
+	display: inline-block;
+    color: #777777;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.1px;
+    font-weight: 400;
+    padding-left: 15px;
+    margin-right: 10px;
+    border-left: 1px solid #d4dee1;
+}
+
+#main-nav li{
+	padding: 0 10px 0 0;
+}
+
+#sign-in{
+	background-color: #a12c2f;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+/* -------- Container-2 - Image Slider -------- */
+#container-2{
+	background: black;
+	height: 600px;
+	padding: 0;
+}
+.carousel-item img{
+	object-fit: cover;
+	height: 600px;
+	width: 100%;
+	
+}
+
+#cap-1{
+	position: absolute;
+	left: 10%;
+	top: 60%;
+	text-align: left;
+	padding-left: 40px;
+	background: rgb(0,0,0,0.65);
+	width: 50%;
+	height: 22%;
+	margin-left: 20px;
+	
+}
+#cap-2{
+	position: absolute;
+	left: 10%;
+	top: 20%;
+	padding-left: 40px;
+	background: rgb(0,0,0,0.65);
+	width: 40%;
+	height: 23%;
+	margin-left: 20px;
+	padding-bottom: 0;
+}
+#cap-3{
+	position: absolute;
+	left: 30%;
+	background: rgb(0,0,0,0.65);
+	width: 40%;
+	
+}
+
+#cap-1 h5, #cap-2 h5, #cap-3 h5{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: 800;
+	line-height: 1.2;
+	text-align: left;
+	position: relative;
+	animation: mymove 2s 1;
+	
+}
+@keyframes mymove {
+	from {bottom: 300px;}
+	to {bottom: 0px;}
+}
+#cap-3 h5{
+	font-weight: 600;
+	text-align: center;
+	
+}
+#cap-1 p, #cap-2 p{
+	font-size: 20px;
+	padding-top: 20px;
+	padding-left: 10px;
+	position: relative;
+	animation: p-move 2s 1;
+}
+@keyframes p-move{
+	from {left: 600px;}
+	to {left: 0px;}
+}
+
+#cap-2 p{
+	text-align: right;
+	padding-right: 100px;
+}
+#cap-2 p a{
+	padding: 5px 10px;
+	background: #f5a425;
+}
+
+
+
+
+
+
+/* -------- Container-3 - Welcome Intro -------- */
+
+#container-3{
+	padding-top: 40px;
+}
+
+#intro{
+	margin: 0 auto;
+	padding: 20px;
+}
+#intro div{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+#request-form{
+	background-color: #a12c2f;
+    padding: 30px 35px;
+	width: 90%;
+	
+}
+#request-form h4{
+	border-left: 3px solid #f5a425;
+	margin-top: 0px;
+    padding-left: 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 0.2px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+	margin-bottom: 20px;
+}
+#request-form div input{
+	padding: 0px 10px;
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid #ac4f51;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    outline: none;
+	color: #fff;
+}
+
+.form-control::placeholder {
+	color: white;
+}
+
+.form-select{
+	margin-bottom: 5px;
+	color: #fff;
+	background-color: transparent;
+	border: 1px solid #ac4f51;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	
+}
+.form-select{
+	color: #fff;
+}
+.campus-dropdown{
+	color: black;
+}
+
+#submit-button{
+	background-color: #f5a425;
+    padding: 15px 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #222222;
+    letter-spacing: 2px;
+    display: inline-block;
+	width: 75%;
+	
+}
+
+
+
+/* -------- Container-4 Popular Courses -------- */
+#container-4{
+	background: #f2f5f6;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	
+}
+
+/* -------- Container-5 University News -------- */
+
+#container-5{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#university-news .container{
+	padding: 10px;
+}
+
+#news-info-1 ul, #news-info-2 ul{
+	padding-top: 10px;
+}
+#news-info-1 ul li, #news-info-2 ul li{
+	font-size: 13px;
+	padding: 0px 12px;
+	color: #a8a8a8;
+	border-right: 1px dashed #d5d5d5;
+	border-left: 1px dashed #d5d5d5;
+	margin-left: 0;
+	margin-right: 0;
+}
+#news-1 h4, #news-2 h4{
+	font-size: 13px;
+	text-transform: uppercase;
+}
+#news-1, #news-1{
+	float: left;
+	padding-right: 20px;
+	
+}
+
+
+
+
+
+
+/* -------- Container-6 - Teachers Info -------- */
+
+
+.our-teachers{
+	padding: 60px 0 70px 0;
+	background-color: #f2f5f6;
+}
+
+
+.our-teachers .container div .section-heading h1{
+	margin-top: 0px;
+}
+.our-teachers .container div .section-heading img{
+	padding: 15px 0px 20px 0px;
+}
+.our-teachers .section-heading p {
+    padding-bottom: 50px;
+}
+.our-teachers .teacher-item {
+    text-align: center;
+	border: 2px solid #eeeeee;
+	background: #fff;
+	box-shadow: 0 5px 25px #F6E9DA;
+	
+}
+.our-teachers .teacher-item .thumb-holder {
+    position: relative;
+}
+.teacher-item .thumb-holder img{
+	width: 100%;
+	padding: 5px;
+	border-bottom: 2px solid #eeeeee;
+	border-radius: 50%
+	
+}
+.our-teachers .teacher-item .down-content {
+	padding: 0px 20px;
+	
+}
+
+.our-teachers .teacher-item .down-content h4{
+	font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    padding-top: 20px;
+    margin-top: 0px;
+}
+.our-teachers .teacher-item .down-content span{
+	font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+	
+}
+.our-teachers .teacher-item .down-content p{
+	margin-top:15px;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+/* -------- Container-7 - Quote & View Courses -------- */
+#container-7{
+	padding: 0;
+}
+#quotation{
+	background: #f5a425;
+	width: 100%
+	
+}
+#quotation div{
+	padding: 10px;
+
+}
+#course-button{
+	background-color: #a12c2f;
+    color: #ffffff;
+	padding: 15px 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+	letter-spacing: 2px;
+    display: inline-block;
+}
+
+
+/* --------Container-8 Footer-------- */
+#container-8{
+	background: #f2f5f6;
+	padding-top: 0;
+}
+footer{
+	padding: 30px 0 0 0;
+}
+.footer-details div h2{
+	font-size: 18px;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    color: #343a40;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.footer-details div img{
+	width: 44px;
+    height: 1px;
+    background-color: #f5a425;
+    margin: 25px 0px;
+}
+#news-letter div p{
+	color: #343a40;
+	font-family: 'Roboto', sans-serif;
+}
+#news-letter div input{
+	margin-top: 15px;
+    border: 1px solid #31383c;
+    margin-bottom: 20px;
+    background-color: #202a2f;
+    width: 100%;
+    padding-left: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #f8f9fa;
+    height: 40px;
+    outline: none;
+}
+#news-letter div div a{
+	background-color: #f5a425;
+    padding: 15px 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #222222;
+    letter-spacing: 2px;
+    display: inline-block;
+	
+}
+#featured-links div ul{
+	padding: 0;
+    margin-left: 15px;
+    list-style: circle;
+    display: inline-block;
+}
+#featured-links div ul li a:hover{
+	color: #f5a425;
+}
+#featured-links div ul li{
+	margin-top: 2px;
+    margin-bottom: 10px;
+	list-style: circle;
+	color: #343a40;
+	font-family: 'Roboto', sans-serif;
+	
+}
+#featured-links div ul li a{
+	font-size: 15px;
+}
+#college-details ul{
+	padding: 0;
+    margin: 0;
+}
+#college-details ul li{
+	margin-bottom: 20px;
+    margin-left: 0px;
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+
+
+
+
+/*---------------------------------------------------------------------------------------*/
+/* --------About - Commissioner page-------- */
+/* --------About - Academic Council page-------- */
+/* --------About - Finance Committee page-------- */
+/* --------About - Hallmarks page-------- */
+/* --------About - Principals Message page-------- */
+
+
+
+/*---------------------------------------------------------------------------------------*/
+/* --------Departments pag	es Combined Styles-------- */
+
+#gd-container{
+	min-height: 450px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+	color: #ffffff;
+    background-color: #6C757D;
+}
+.nav-pills .nav-link{
+	color: #000000;
+	border: 1px solid #6C757D;
+	height: 80px;
+}
+#v-pills-tabContent{
+	border: 1px solid #6C757D;
+	padding: 20px;
+	margin: 10px;
+}
+
+
+
+
+/* --------Departments - General Selection page-------- */
+
+/* --------Departments - Electrical & Electronic Engineering page-------- */
+/* --------Departments - Mechanical Engineering page-------- */
+/* --------Departments - Office Staff page-------- */
+
+
+
+
+/*---------------------------------------------------------------------------------------*/
+/* --------Aims & Objectives - Goals page-------- */
+
+/* --------Aims & Objectives - Vision & Mission page-------- */
+
+#vm-container-1{
+	background: #6C757D;
+}	
+#vm-container-2{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.little-nav ul{
+	background: #6C757D;
+	
+}
+.little-nav ul li a:hover{
+	color: #fff;
+}
+
+
+
+/*---------------------------------------------------------------------------------------*/
+/* --------Academics - Admissions page-------- */
+/* --------Academics - Examinations page-------- */
+/* --------Academics - Placements page-------- */
+
+
+
+/*---------------------------------------------------------------------------------------*/
+/* --------Blog - News page-------- */
+/* --------Blog - Student Articles page-------- */
+/* --------Blog - Downloads page-------- */
+
+
+
+
+/*---------------------------------------------------------------------------------------*/
+/* --------Gallery page-------- */
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------------------------------------*/
+/* --------Contact page-------- */
+
+#contact-container-2{
+	background-image: url(../images/contact-bg-1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	padding: 100px 0 0 0;
+	color: #ffffff;
+	
+}
+#contact-container-2 div h1{
+	font-size: 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+#contact-container-2 div span{
+	font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    padding-bottom: 80px;
+    display: block;
+}
+#contact-container-2 div div ul{
+	padding: 15px 25px;
+    margin: 0;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: inline-block;
+}
+#contact-container-2 div div ul li{
+	display: inline-block;
+    margin-right: 10px;
+	font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+	font-weight: 500;
+}
+#contact-container-3{
+	padding: 0;
+	margin: 0;
+} 
+#contact-content{
+	padding: 60px 0px;
+    background-color: #f2f5f6;
+}
+#contact-content div{
+	display: inline-block;
+    text-align: center;
+    border-right: 1px solid #e6e6e6;
+}
+#contact-content div:last-child{
+	border: 0;
+}
+#contact-content div i{
+	color: #f5a425;
+    font-size: 18px;
+}
+#contact-content div h4{
+	font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 15px 0px;
+}
+#contact-content div p{
+	font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #777777;
+}
+#contact-container-4{
+	padding: 70px 0;
+}
+
+#map-location, #contact-form{
+	border: 2px solid #f2f5f6;
+	padding: 0 1px;
+	
+}
+.map-heading{
+	padding: 10px 35px 5px 35px;
+    background-color: #f2f5f6;
+}
+.map-heading h4{
+	margin-top: 0px;
+    padding: 7px 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #222222;
+    letter-spacing: 0.2px;
+    border-left: 3px solid #f5a425;
+}
+#goolge-maps{
+	text-align: center;
+}
+.sub-contact{
+	padding: 30px;
+}
+
+.message-content div div input{
+	border: 2px solid #eeeeee;
+    width: 100%;
+    height: 50px;
+    outline: none;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #a8a8a8;
+	
+}
+
+#message{
+	border: 2px solid #eeeeee;
+    width: 100%;
+    max-width: 100%;
+    min-height: 182px;
+    max-height: 300px;
+    outline: none;
+    padding: 10px 15px;
+    margin-bottom: 30px;
+	font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    
+}
+#submit-message{
+	text-align: center;
+}
+#submit-message button{
+	width: 100%;
+}
+
+
+
+
+
+/*---------------------------------------------------------------------------------------*/
+/* --------Sign In page-------- */
+
+
+/* Full-width input fields */
+input[type=text], input[type=password], input[type=email] {
+  display: block;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+  
+}
+
+img.avatar {
+  width: 80%;
+  border-bottom: 1px solid #E8ECEF;
+}
+
+#other-signIn{
+	float: right;
+	padding-bottom: 10px;
+}
+
+span.psw, span.register{
+  float: right;
+  padding-top: 16px;
+  
+}
+span.register{
+	padding-bottom: 20px;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.8); 
+  
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; 
+  border: 1px solid #888;
+  width: 45%; 
+  padding: 0 30px 10px 30px;
+}
+
+#psw-content .container{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+#register-content, #logIn-content, #psw-content{
+	display: none;
+}
+
+
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  
+}
+
+
+
+/*
+
+#signIn-container{
+	height: 500px;
+	background: #f2f5f6;
+	
+}
+
+#logIn-info input, #new-student input{
+	display: block;
+	width: 90%;
+	height: 40px;
+}
+input[type=checkbox]{
+	display: inline-block !important;
+	width: 17px !important;
+	height: 17px !important;
+}
+#checkbox{
+	padding: 15px 15px 15px 0;
+}
+#logIn-container form{
+	margin-right: 10px;
+	margin-left: auto;
+}
+#register-container form{
+	margin-left: 10px;
+	margin-right: auto;
+}
+#logIn-container form, #register-container form{
+	padding: 20px;
+	width: 70%;
+	height: 100%;
+	background: #fff;
+	box-sizing: border-box;
+	
+}
+#logIn-container form div, #register-container form div{
+	padding-bottom: 20px;
+	
+}
+
+
+
+
+
+
+@media screen and (min-width: 700px){
+	
+	#signIn-container{
+		padding-top: 60px;
+	}
+}
+
+*/
+
+
+
+
+
+
+
+
+
